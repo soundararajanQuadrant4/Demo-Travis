@@ -4,8 +4,5 @@ deploy:
   secret_access_key: "YOUR AWS SECRET KEY"
   bucket: "S3 Bucket"
   skip_cleanup: true
-  on:
-        branch: master
   upload-dir: travis-builds
-  provider: script
-  script: script.sh
+ 
